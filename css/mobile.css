@@ -13,6 +13,9 @@
         padding-top: 15%;
         padding-bottom: 15%;
     }
+    .articles{
+        display: block;
+    }
     .article_1 {
         background-color: hsl(31, 77%, 52%);
         padding: 10%;

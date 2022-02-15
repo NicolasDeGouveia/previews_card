@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'bigshoulders';
+    src: url('./fonts/BigShouldersDisplay-Bold.ttf') format('TrueType');
+}
+@font-face {
+    font-family: 'lexenddeca';
+    src: url('./fonts/LexendDeca-Regular.ttf') format('TrueType');
+}
+#container {
+    width: 59vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article_1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5%;
+    color: white;
+    border-radius: 2% 0 0 2%;
+}
+.article_2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 5%;
+    color: white;
+}
+.article_3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 5%;
+    color: white;
+    border-radius: 0 2% 2% 0;
+}
+.title_article {
+    font-family: 'bigshoulders';
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    color: hsl(0, 0%, 95%);
+}
+.description_article{
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'lexenddeca';
+    font-size: 1rem;
+}
+.button_1{
+    background-color: white;
+    color:hsl(31, 77%, 52%);
+    width: 45%;
+    text-align: center;
+    border-radius: 100px;
+    padding: 1rem;
+    font-family: 'lexenddeca';
+    font-size: 0.8rem;
+}
+.button_1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+    border: 1px solid white;
+}
+.button_2{
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    width: 45%;
+    text-align: center;
+    border-radius: 100px;
+    padding: 1rem;
+    font-family: 'lexenddeca';
+    font-size: 0.8rem;
+}
+.button_2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:white;
+    border: 1px solid white;
+}
+.button_3{
+    background-color: white;
+    color:hsl(179, 100%, 13%);
+    width: 45%;
+    text-align: center;
+    border-radius: 100px;
+    padding: 1rem;
+    font-family: 'lexenddeca';
+    font-size: 0.8rem;
+}
+.button_3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:white;
+    border: 1px solid white;
+}
